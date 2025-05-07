@@ -6,7 +6,7 @@ $body = strtolower(trim($_POST['Body'] ?? ''));
 
 
 $masterUser = 'whatsapp:+60147195118';
-$voidCode = 'VOID-XYZ123'; // Your void code
+$voidCode = '6680'; // Void code
 
 
 if ($from === $masterUser && $body === 'void code') {
